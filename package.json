@@ -1,0 +1,37 @@
+{
+  "name": "simplify-v2-config-node",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "ts-node-dev src/app.ts",
+    "build": "tsc",
+    "start": "nodemon src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "axios": "^1.7.4",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "fastify-cors": "^6.1.0",
+    "fastify-plugin": "^4.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.3",
+    "nodemon": "^3.1.4",
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.2.2",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20.14.12",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,18 @@
+export interface WorkflowData {
+    id: string,
+    name: String,
+    event_id: string,
+    flow_type: string,
+    hierarchies: any[],
+    placement_order: number,
+    module: string,
+    config: any,
+    is_enabled: boolean,
+    levels: any[],
+    created_on: Date,
+    modified_on: Date,
+    created_by: string,
+    modified_by: string,
+    program_id: string,
+    is_deleted: boolean,
+}
